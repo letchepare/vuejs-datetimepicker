@@ -133,7 +133,6 @@ import format from "date-fns/format";
 import startOfDay from "date-fns/start_of_day";
 import isEqual from "date-fns/is_equal";
 
-const days = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 const AM = "AM";
 const PM = "PM";
 export default {
@@ -528,7 +527,7 @@ export default {
     this.minute = this.timeStamp.getMinutes();
     this.minute = this.minute < 10 ? "0" + this.minute : "" + this.minute;
     this.updateCalendar();
-    days.forEach((day, idx) => {
+    this.days.forEach((day, idx) => {
       this.days[(idx - this.normalizedFirstDayOfWeek + 7) % 7] = day;
     });
     document.addEventListener("keydown", this.keyIsDown);
