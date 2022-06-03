@@ -174,7 +174,7 @@ export default {
       message: "Only 0 (Sunday) and 1 (Monday) are supported.",
     },
     months: {
-      default: [
+      default: () => [
         "Jan",
         "Feb",
         "Mar",
@@ -197,7 +197,7 @@ export default {
       },
     },
     days: {
-      default: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+      default: () => ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
       validator: function (value) {
         try {
           return value.length === 7;
