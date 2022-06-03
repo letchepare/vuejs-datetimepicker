@@ -1,36 +1,8 @@
 {
-  "_from": "vuejs-datetimepicker",
-  "_id": "vuejs-datetimepicker@1.1.1",
-  "_inBundle": false,
-  "_integrity": "sha1-ro9pdHnMszA966nOEVI592j9Hpw=",
-  "_location": "/vuejs-datetimepicker",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "vuejs-datetimepicker",
-    "name": "vuejs-datetimepicker",
-    "escapedName": "vuejs-datetimepicker",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/vuejs-datetimepicker/-/vuejs-datetimepicker-1.1.1.tgz",
-  "_shasum": "ae8f697479ccb3303deba9ce115239f768fd1e9c",
-  "_spec": "vuejs-datetimepicker",
-  "_where": "/Users/Tjohn/Desktop/js-projects/vue/test",
-  "author": {
-    "name": "Tosin Adeoye",
-    "email": "johnjokoo@gmail.com"
-  },
+  "author": "Tosin Adeoye <johnjokoo@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tjohnn/vuejs-datetimepicker/issues"
+    "url": "https://github.com/letchepare/vuejs-datetimepicker/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "date-fns": "^1.29.0",
     "vue": "^2.3.3"
@@ -56,7 +28,7 @@
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.3.3"
   },
-  "homepage": "https://github.com/tjohnn/vuejs-datetimepicker",
+  "homepage": "https://github.com/letchepare/vuejs-datetimepicker",
   "keywords": [
     "vue",
     "vuejs",
@@ -68,11 +40,11 @@
     "vue-datetime-picker"
   ],
   "main": "./src/datetime_picker.vue",
-  "name": "vuejs-datetimepicker",
+  "name": "vuejs-datetimepicker-translatable",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tjohnn/vuejs-datetimepicker.git"
+    "url": "git+https://github.com/letchepare/vuejs-datetimepicker.git"
   },
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
@@ -90,5 +62,6 @@
       "^.*\\.js$": "babel-jest"
     },
     "collectCoverage": true
-  }
+  },
+  "license": "ISC"
 }
