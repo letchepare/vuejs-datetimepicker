@@ -124,11 +124,11 @@ Also initializing the value of `dob` in the current scope initializes the value 
 
 ### The first day of the week
 
-By default, the datetime-picker renders Sunday as the first day of each week.
-If you want to use Monday instead, set the `firstDayOfWeek` property to `1`:
+By default, the datetime-picker renders Monday as the first day of each week.
+If you want to use Sunday instead, set the `firstDayOfWeek` property to `0`:
 
 ```
-<datetime … firstDayOfWeek="1"></datetime>
+<datetime … firstDayOfWeek="0"></datetime>
 ```
 
 ## License

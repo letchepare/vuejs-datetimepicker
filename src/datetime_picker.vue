@@ -527,9 +527,10 @@ export default {
     this.minute = this.timeStamp.getMinutes();
     this.minute = this.minute < 10 ? "0" + this.minute : "" + this.minute;
     this.updateCalendar();
-    this.days.forEach((day, idx) => {
-      this.days[(idx - this.normalizedFirstDayOfWeek + 7) % 7] = day;
-    });
+    // if start is monday
+    if (this.normalizedFirstDayOfWeek == 1) {
+      this.days.push(this.days.shift());
+    }
     document.addEventListener("keydown", this.keyIsDown);
     document.addEventListener("click", this.documentClicked);
     // this.setDate()
