@@ -9,7 +9,7 @@
 ### npm
 
 ```bash
-$ npm install vuejs-datetimepicker
+$ npm install vuejs-datetimepicker-translatable
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ $ npm install vuejs-datetimepicker
 </script>
 ```
 
-Months and days props are optionnals, their main purpose is to let you handle any wanted translation
+ and days props are optionnals, their main purpose is to let you handle any wanted translation
 
 ### List of accepted formats
 
