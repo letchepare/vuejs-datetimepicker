@@ -47,7 +47,8 @@ $ npm install vuejs-datetimepicker
           "Nov",
           "Dec",
         ],
-        days: ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],
+        // need to start by Sunday
+        days: ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
       };
     },
   };
