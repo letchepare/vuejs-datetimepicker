@@ -50,7 +50,7 @@
     "lint": "eslint --ext .js,.vue src",
     "test": "NODE_ENV=test jest"
   },
-  "version": "1.1.14",
+  "version": "1.1.15",
   "jest": {
     "moduleFileExtensions": [
       "js",

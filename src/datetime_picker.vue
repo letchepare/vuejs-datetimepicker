@@ -161,7 +161,7 @@ export default {
       default: false,
     },
     firstDayOfWeek: {
-      default: 0,
+      default: 1,
       validator: function (value) {
         try {
           const val = parseInt(value, 10);
